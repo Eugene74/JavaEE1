@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title> 
+    <link rel="stylesheet" href="questionstyle.css">
+</head>
+<body>
+<form action="/question" method="POST">
+   <div id="title1"> <h1>Qrestionnary</h1></div>
+    <h2>Please answer a few questions:</h2>
+
+<table>
+  <tr><td>  First name: <input type="text" name="first name" ></td>
+    <td>     Last name: <input type="text" name="lastname"></td></tr>
+</table>
+    <p>  Do you like java?</p>
+    <br/> <input type="radio"  checked name="question1" value="yes"/> Yes
+    <br/> <input type="radio" name="question1" value="no"/> NO
+
+
+    <p>Do you like .NET?</p>
+    <br/> <input type="radio" checked name="question2" value="yes"  /> Yes
+    <br/> <input type="radio"   name="question2" value="no"/> NO
+    <br/>  <input type="submit"/>
+
+
+
+</form>
+</body>
+</html>
